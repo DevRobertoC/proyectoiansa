@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #01320e;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    height: 500px;
+    background: #F1F2B5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(187, 64%, 21%, 0.601), hsla(61, 70%, 83%, 0.706)), url(../images/portada.png);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(187, 64%, 21%, 0.601), hsla(61, 70%, 83%, 0.706)), url(../images/portada.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: center;
+    padding: 40px 0px 0px 100px;
+    display: flex;
+    margin: auto;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 999;
+    text-decoration: none;
+    font-size:  20px;
+    margin-right: 100px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos_header{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos_header h1{
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.textos_header h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300; 
+}
+
+/* aqui estan las secciones*/
+.contenedor-inicio {
+    display: flex;
+    justify-content:right;
+    
+}
+
+.imagen-inicio{
+    width: 50%;
+    height: 50%;
+}
+
+.contenido-textos {
+    padding: 0px 0px 30px 40px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+}
+
+footer {
+    background:#414141;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    height: 3cm;
+    justify-content:space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.contenedor-footer h4{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px ;
+}
+
+.contenedor-footer p{
+    color: #fff;
+}
+
+/* estilos navigation login*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    font-weight: bold;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .body_login{
+    background: url(../images/login-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+                
+  }
+  
+.login_inbox{
+    width: 320px;
+    height: 370px;
+    background:hsla(0, 0%, 0%, 0.589);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+.login_inbox p{
+  margin: 0;
+  padding: 0px;
+  font-weight: bold;
+
+}
+
+.login_inbox h1{
+    margin: 0px;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login_inbox input {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.login_inbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font: size 16px;
+}
+
+.login_inbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #024313;
+    color: #fff;
+    font: size 18px;
+    font-weight: bold;
+}
