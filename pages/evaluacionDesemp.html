@@ -35,7 +35,23 @@
     <!--FORMULARIO-->
     <div>
         <section>
-
+            <h1>Evaluaci&oacute;n de desempe&ntilde;o</h1>
+            <form action="">
+                <fieldset>
+                    <input type="text" name="cedula" placeholder="Ingresar No. cedula">
+                    <input type="submit" value="Buscar">
+                </fieldset>
+                <input type="text" name="nombres" placeholder="Nombres">
+                <input type="text" name="apellidos" placeholder="Apellidos"><br>
+                <h4>Datos de la evaluaci&oacute;n</h4>
+                <label>Fecha</label>
+                <input type="date" name="fecha">
+                <label>Valoraci&oacute;n</label>
+                <input type="number" name="nota_cuant" min="1" max="10"><br>
+                <p>Valoraci&oacute;n Cualitativa</p>
+                <p><textarea name="cualitativa" rows="8" cols="50"></textarea></p>
+                <button type="submit" value="guardar">Guardar</button>
+            </form>
         </section>
     </div>
     
