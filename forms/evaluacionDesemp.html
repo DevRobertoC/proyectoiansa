@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <title>IANSA</title>
+</head>
+<body>
+
+    <!--BARRA DE NAVEGACIÓN-->
+    
+    <div class="topnav">
+        <a href="../index.html" target="_self">Inicio</a>
+        <a href="#" target="_self">Acerca de IANSA</a>
+        <a href="#" target="_self">Contacto</a>
+        <a href="#" target="_self">Servicios</a>
+        <a href="../pages/login.html" target="_self">Acceder a mi Cuenta</a>
+    </div>
+
+    <!--MENÚ DE OPCIONES-->
+
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="bienvenido.html" target="_self">Bienvenido Usuario</a></li>
+                <li><a href="nuevoRegistro.html" target="_self">Crear Registro</a></li>
+                <li><a href="findData.html" target="_self">Consultar Empleados</a></li>
+                <li><a href="evaluacionDesemp.html" target="_self" class="active">Evaluacion de desempeño</a></li>         
+                <li><a href="../index.html" target="_self">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--FORMULARIO-->
+
+    <div>
+        
+        <form action="">
+
+            <h1>Evaluaci&oacute;n de Desemple&ntilde;o</h1><br>
+
+            <fieldset>
+                <legend> Buscar Empleado </legend>
+                <p>
+                    <label>No. Identificación: </label>
+                    <input type="text" name="cedula" maxlength="10">
+                </p>
+                <div>
+                    <input type="submit" value="Buscar" class="buttons">
+                </div>
+                <p>
+                    <label>Primer Nombre: </label>
+                    <input type="text" name="nombre" disabled>
+                </p>
+                <p>
+                    <label>Primer Apellido: </label>
+                    <input type="text" name="apellido" disabled>
+                </p><br>
+                
+            </fieldset><br>
+
+            <fieldset>
+                <legend> Datos de la Evaluaci&oacute;n </legend>
+                <section class="evaluacion">
+                    <section>
+                        <label>Fecha: </label>
+                        <input type="date" name="fecha">
+                    </section>
+                    <section>
+                        <label>Puntaje: </label>
+                        <input type="number" name="nota_cuant" min="1" max="10">
+                    </section>
+                </section>
+                <p>
+                    <label>Valoraci&oacute;n Cualitativa: </label>
+                </p>
+                <p><textarea name="cualitativa" rows="8" cols="50"></textarea></p>
+                <div><input type="submit" value="Guardar Valoraci&oacute;n" class="buttons"></div>
+            </fieldset>
+        </form>
+</div>
+    
+</body>
+</html>
