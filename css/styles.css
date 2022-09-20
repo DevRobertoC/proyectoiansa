@@ -1,4 +1,5 @@
-/* estilos navigation */
+/* GENERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,11 @@
 
 body {
     font-family: 'Open Sans';
+    background-color: #B0C4DE;
 }
+
+/*---------------------*/
+/* BARRA DE NAVEGACIÓN */
 
 .topnav {
     overflow: hidden;
@@ -29,13 +34,22 @@ body {
     color: black;
 }
 
-/* Menú de Opciones Verticial */
+/*----------------------------*/
+/* MENÚ DE OPCIONES VERTICAL */
+.menu{
+    float: left;
+    margin-top: 5cm;
+    margin-left: 0.5cm;
+    border-color: red;
+    border-radius: 100px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #E6E6FA;
 }
 
 li a {
@@ -46,11 +60,88 @@ li a {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #333;
     color: white;
 }
 
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+
+/*---------------------*/
+/* ESPACIO DEL FORMULARIO */
+
+form {
+    width: 30%;
+	margin: 20px;
+    margin-left: 350px;
+    float: left;
+    background-color: #F8F8FF;
+}
+
+h1{
+    text-align: center;
+}
+
+legend{
+    font-weight: bold;
+    text-align: center;
+    color: #2F4F4F;
+}
+
+p {
+    margin:6.4px;
+    /*text-align: center;*/
+}
+
+p label{
+    width: 20%;
+    margin-left: 0.5cm;
+    font-weight: bold;
+}
+
+p input{
+    float: right;
+    margin-right: 0.5cm;
+}
+
+.dateSize{
+    width: 172px;
+}
+
+p select{
+    float: right;
+    margin-right: 0.5cm;
+    width: 172px;
+}
+
+.buttons {
+    margin:6.4px;
+    margin-bottom: 12px;
+
+}
+
+form div {
+    text-align: center;
+}
+
+.evaluacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:6.4px;
+}
+
+section label{
+    margin-left: 0.5cm;
+    font-weight: bold;
+    justify-items: center;
+}
+
+img{
+    text-align: center;
+}
+
+.justiText{
+    text-align: center;
 }
