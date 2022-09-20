@@ -116,6 +116,10 @@ p select{
     width: 172px;
 }
 
+p textarea{
+    width: 395px;
+}
+
 .buttons {
     margin:6.4px;
     margin-bottom: 12px;
