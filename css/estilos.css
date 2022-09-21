@@ -181,7 +181,7 @@ footer {
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 50px 30px;
+    padding: 50px 30px;    
 }
 
 .login_inbox p{
@@ -221,4 +221,5 @@ footer {
     color: #fff;
     font: size 18px;
     font-weight: bold;
+    cursor: pointer;
 }
