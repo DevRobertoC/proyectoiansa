@@ -15,6 +15,11 @@ body {
     overflow: hidden;
 }
 
+.textos_header > .logo{
+    color: rgb(0, 49, 6);
+    font-family: 'Franklin Gothic Heavy';
+}
+
 .titulo {
     color: #01320e;
     font-size: 30px;
