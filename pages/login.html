@@ -7,6 +7,7 @@
     <title>Inicio IANSA</title>
     <link rel="stylesheet" href="images/favicon/Web/icons8-instapaper-material-filled-16.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/validar.js"></script>
 </head>
 <body class="body_login">
 
@@ -18,12 +19,12 @@
         
     <div class="login_inbox">
          <h1>Login</h1>
-         <form action="">
+         <form action="" name="formLogin" method="get" onsubmit="validar()">
             <p>Usuario</p>
             <input type="text" name="usuario" id="usuario" placeholder="Ingrese su Usuario">
             <p>Contraseña</p>
-            <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
-            <input type="submit" value="Iniciar Sesion">
+            <input type="password" name="password" id="password" placeholder="Ingrese su Contraseña">
+            <input type="submit" value="Iniciar Sesion" id="boton">            
          </form>
     </div>
 
