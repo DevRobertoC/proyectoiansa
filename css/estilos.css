@@ -84,6 +84,11 @@ header .textos_header{
     justify-content:right;
     
 }
+.contenedor-contacto {
+    display: flex;
+    justify-content:center;
+    
+}
 
 .imagen-inicio{
     width: 50%;
