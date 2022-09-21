@@ -147,5 +147,9 @@ img{
 }
 
 .justiText{
+    text-align: justify;
+}
+
+.justiText2{
     text-align: center;
 }
