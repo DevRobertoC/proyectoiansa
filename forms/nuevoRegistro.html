@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <title>IANSA</title>
+</head>
+<body>
+
+    <!--BARRA DE NAVEGACIÓN-->
+    
+    <div class="topnav">
+        <a href="../index.html" target="_self">Inicio</a>
+        <a href="#" target="_self">Acerca de IANSA</a>
+        <a href="#" target="_self">Contacto</a>
+        <a href="#" target="_self">Servicios</a>
+        <a href="../pages/login.html" target="_self">Acceder a mi Cuenta</a>
+    </div>
+
+    <!--MENÚ DE OPCIONES-->
+
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="bienvenido.html" target="_self">Bienvenido Usuario</a></li>
+                <li><a href="nuevoRegistro.html" target="_self" class="active">Crear Registro</a></li>
+                <li><a href="findData.html" target="_self">Consultar Empleados</a></li>
+                <li><a href="evaluacionDesemp.html" target="_self">Evaluacion de desempeño</a></li>         
+                <li><a href="../index.html" target="_self">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--FORMULARIO-->
+
+    <div>
+        
+            <form action=""  class="formSpace">
+
+                <h1>Registrar Nuevo Empleado</h1><br>
+
+                <fieldset>
+                    <legend> Pre-Registro </legend>
+                    <p>
+                        <label>No. Identificación: </label>
+                        <input type="text" name="cedula" maxlength="10">
+                    </p>
+                    <p>
+                        <label>Contraseña: </label>
+                        <input type="text" name="cedula" maxlength="10" disabled>
+                    </p>
+                    <div>
+                        <input type="submit" value="Generar Contraseña">
+                        <input type="submit" value="Crear Entrada" class="buttons">
+                    </div>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend> Registro de Datos </legend>
+                    <p>
+                        <label>Primer Nombre: </label>
+                        <input type="text" name="nombre">
+                    </p>
+                    <p>
+                        <label>Primer Apellido: </label>
+                        <input type="text" name="apellido">
+                    </p>
+                    <p>
+                        <label>Celular: </label>
+                        <input type="text" name="celular" maxlength="10">
+                    </p>
+                    <p>
+                        <label>Correo: </label>
+                        <input type="text" name="correo" maxlength="100">
+                    </p>
+                    <p>
+                        <label>Dirección: </label>
+                        <input type="text" name="direccion" maxlength="150">
+                    </p>
+                    <p>
+                        <label>Fecha de Ingreso: </label>
+                        <input type="date" name="fechaIngreso" class="dateSize">
+                    </p>
+                    <p>
+                        <label>Tipo de Contrato: </label>
+                        <input type="text" name="contrato">
+                    </p>
+                    <p>
+                        <label>Fecha de Término: </label>
+                        <input type="date" name="fechaTermino" class="dateSize">
+                    </p>
+                    <p>
+                        <label>Cargo: </label>
+                        <input type="text" name="cargo">
+                    </p>
+                    <p>
+                        <label>Dependencia: </label>
+                        <input type="text" name="dependencia">
+                    </p>
+                    <p>
+                        <label>Salario: </label>
+                        <input type="text" name="salario">
+                    </p>
+                    <p>
+                        <label>Perfil de Usuario: </label>
+                        
+                        <select name="tipoUsuario" id="tipoUsuario">
+                            <option value=""></option>
+                            <option value="super">Superadministrador</option>
+                            <option value="admin">Administrador</option>
+                            <option value="final">Usuario Final</option>
+                        </select>
+                    </p>
+                    <div><input type="submit" value="Guardar Registro" class="buttons"></div>
+                </fieldset>
+            </form>
+    </div>
+    
+</body>
+</html>
