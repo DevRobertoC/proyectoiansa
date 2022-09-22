@@ -10,12 +10,12 @@ body {
 
 .contenedor {
     padding: 60px 0;
-    width: 90%;
+    width: 85%;
     margin: auto;
     overflow: hidden;
 }
 
-.textos_header > .logo{
+.textos_header>.logo {
     color: rgb(0, 49, 6);
     font-family: 'Franklin Gothic Heavy';
 }
@@ -42,26 +42,26 @@ header {
     position: relative;
 }
 
-nav{
+nav {
     text-align: center;
     padding: 40px 0px 0px 100px;
     display: flex;
     margin: auto;
 }
 
-nav > a{
+nav>a {
     color: #fff;
     font-weight: 999;
     text-decoration: none;
-    font-size:  20px;
+    font-size: 20px;
     margin-right: 100px;
 }
 
-nav > a:hover{
+nav>a:hover {
     text-decoration: underline;
 }
 
-header .textos_header{
+header .textos_header {
     display: flex;
     height: 300px;
     width: 100%;
@@ -71,33 +71,45 @@ header .textos_header{
     text-align: center;
 }
 
-.textos_header h1{
+.textos_header h1 {
     font-size: 50px;
     color: #fff;
 
 }
 
-.textos_header h2{
+.textos_header h2 {
     font-size: 30px;
     color: #fff;
-    font-weight: 300; 
+    font-weight: 300;
 }
 
 /* aqui estan las secciones*/
 .contenedor-inicio {
     display: flex;
-    justify-content:right;
-    
-}
-.contenedor-contacto {
-    display: flex;
-    justify-content:center;
-    
+    justify-content: right;
+
 }
 
-.imagen-inicio{
+.contenedor-contacto {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor-nosotros {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagen-inicio {
     width: 50%;
     height: 50%;
+}
+
+.imagen-nosotros {
+    width: 45%;
+    height: 45%;
 }
 
 .contenido-textos {
@@ -108,31 +120,47 @@ header .textos_header{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.contenido-textos-nosotros {
+    padding: 70px 0px 30px 40px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenido-textos-nosotros_2 {
+    padding: 80px 40px 00px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 footer {
-    background:#414141;
+    background: #414141;
     padding: 30px 0 30px 0;
     margin: auto;
     overflow: hidden;
 }
 
-.contenedor-footer{
+.contenedor-footer {
     display: flex;
     width: 90%;
     height: 3cm;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
     text-align: center;
 }
 
-.contenedor-footer h4{
+.contenedor-footer h4 {
     color: #fff;
     border-bottom: 3px solid #fff;
     padding-bottom: 5px;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
 
-.contenedor-footer p{
+.contenedor-footer p {
     color: #fff;
 }
 
@@ -142,7 +170,7 @@ footer {
     background-color: #333;
     font-weight: bold;
 }
-  
+
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -151,12 +179,12 @@ footer {
     text-decoration: none;
     font-size: 17px;
 }
-  
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
-  
+
 /* Create a right-aligned (split) link inside the navigation bar */
 .topnav a.split {
     float: right;
@@ -164,34 +192,34 @@ footer {
     color: white;
 }
 
-.body_login{
+.body_login {
     background: url(../images/login-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;             
+    height: 100vh;
 }
-  
-.login_inbox{
+
+.login_inbox {
     width: 320px;
     height: 370px;
-    background:hsla(0, 0%, 0%, 0.589);
+    background: hsla(0, 0%, 0%, 0.589);
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 50px 30px;    
+    padding: 50px 30px;
 }
 
-.login_inbox p{
-  margin: 0;
-  padding: 0px;
-  font-weight: bold;
+.login_inbox p {
+    margin: 0;
+    padding: 0px;
+    font-weight: bold;
 
 }
 
-.login_inbox h1{
+.login_inbox h1 {
     margin: 0px;
     padding: 0 0 10px;
     text-align: center;
@@ -203,7 +231,8 @@ footer {
     margin-bottom: 35px;
 }
 
-.login_inbox input[type="text"], input[type="password"] {
+.login_inbox input[type="text"],
+input[type="password"] {
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -213,7 +242,7 @@ footer {
     font: size 16px;
 }
 
-.login_inbox input[type="button"]{
+.login_inbox input[type="button"] {
     border: none;
     outline: none;
     height: 40px;
